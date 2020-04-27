@@ -145,7 +145,13 @@ header {
 
 .btn-full:link,
 .btn-full:visited {
+   color: #d35400;
+    border: 1px solid #d35400;
+}
+
+.btn-full:hover{
     background-color: #d35400;
+    color: #fff;
     border: 1px solid #d35400;
 }
 
@@ -374,4 +380,70 @@ cite img{
     height: 45px;
     margin-right: 10px;
     vertical-align: middle
+}
+
+/*------------------------------------------------------------------*/
+/*---------PLANS------------*/
+/*------------------------------------------------------------------*/
+
+
+.section-plans {
+    background-color: #f7f7f7;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 5px #e8e8e8;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.plan-box div:first-child{
+    background-color: #ededed;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+} 
+
+.plan-box div:last-child{
+    text-align: center;
+    border: none;
+}
+
+
+.plan-price{
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color:#d35400;
+}
+
+.plan-price-meal{
+    font-size: 80%;
+  
+}
+
+.plan-price span{
+    font-size: 50%;
+    font-weight: 300;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+.plan-box ul ion-icon{
+    color: #d35400;
+    padding-right: 15px;
+    width: 15px;
 }
