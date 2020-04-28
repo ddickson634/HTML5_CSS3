@@ -477,3 +477,57 @@ label{
     
 }
 
+/*------------------------------------------------------------------*/
+/*---------FORM------------*/
+/*------------------------------------------------------------------*/
+
+footer{
+    background-color: #4a4a4a;
+    padding: 50px 50px 70px 50px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.footer-nav li, .social-links li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.social-links {
+    list-style: none;
+    float: right;
+    font-size: 120%;
+}
+
+.social-links:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: none;
+    color: #717171;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active{
+    color: #d35400;
+    font-weight: 400;
+    transition: color, font-weight .1s;
+    
+}
+
+
+p.copyright {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: #848484;
+}
