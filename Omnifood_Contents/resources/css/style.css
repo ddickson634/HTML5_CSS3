@@ -295,7 +295,7 @@ a.button-app:link,visited{
 .work-step div{
     color:#d35400;
     border: 2px solid #898989;
-    display: inline-block;
+    /*display: inline-block;*/
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -472,9 +472,6 @@ textarea{
 
 input[type=checkbox]{
     margin-right: 15px;
-}
-label{
-    
 }
 
 /*------------------------------------------------------------------*/
