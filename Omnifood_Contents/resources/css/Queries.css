@@ -9,6 +9,18 @@
     .row {
         padding: 0 25px;
     }
+
+    .social-links li:last-child {
+        margin-right: 0px;
+    }
+
+    div#social-links {
+        width: 30%;
+    }
+
+    div#footer-nav {
+        width: 65%;
+    }
 }
 
 /*SMALL TABLETS to LARGE TABLETS: 768-1023px*/
@@ -31,9 +43,59 @@
         width: 50%;
     }
 
-    a.button-app img {
+    .work-step:last-of-type {
+        margin-bottom: 50px;
+    }
+
+    .steps-box a.button-app img {
         width: auto;
         height: 40px;
+    }
+
+    div.city-features {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    div.city-features:last-child {
+        margin-bottom: 0;
+    }
+
+    .plan-price {
+        font-size: 180%;
+    }
+
+    .plan-box li {
+        font-size: 13px;
+    }
+
+    a.btn.btn-full {
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 30px 20px 50px 20px;
+    }
+
+    footer.row {
+        padding: 0 auto;
+    }
+
+    ul.footer-nav {
+        font-size: 15px;
+    }
+
+    .social-links li:last-child {
+        margin-right: 0px;
+    }
+
+    div#social-links {
+        width: 30%;
+    }
+
+    div#footer-nav {
+        width: 65%;
     }
 }
 
