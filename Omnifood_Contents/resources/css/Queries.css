@@ -1,0 +1,45 @@
+/*LARGE TABLETS to DESKTOPS: 1024-1200px*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 25px;
+    }
+}
+
+/*SMALL TABLETS to LARGE TABLETS: 768-1023px*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    a.button-app img {
+        width: auto;
+        height: 40px;
+    }
+}
+
+
+/*SMALL PHONES to SMALL TABLETS: 481-767px*/
+@media only screen and (max-width:767) {}
+
+/*SMALL PHONES: 0-480px*/
+@media only screen and (max-width:480) {}
