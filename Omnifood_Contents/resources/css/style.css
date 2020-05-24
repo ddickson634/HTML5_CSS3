@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -111,6 +112,7 @@ h3 {
 /*------------------------------------------------------------------*/
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/hero.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -123,6 +125,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
 }
 
@@ -149,6 +153,9 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     color: #fff;
+    -webkit-transition: background-color 0.4s, border 0.4s, color 0.4s;
+    -ms-transition: background-color 0.4s, border 0.4s, color 0.4s;
+
     transition: background-color 0.4s, border 0.4s, color 0.4s;
     margin-left: 20px;
 
@@ -223,6 +230,7 @@ visited {
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
     padding: 5px 0px;
 }
@@ -268,12 +276,17 @@ visited {
     opacity: 0.7;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1);
     transform: scale(1);
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, -webkit-transform 1s;
     transition: transform 1s, opacity 1s;
+    transition: transform 1s, opacity 1s, -webkit-transform 1s;
 }
 
 .meal-photo img:hover {
     opacity: 1;
+    -webkit-transform: scale(1.15);
     transform: scale(1.15);
 }
 
@@ -368,6 +381,7 @@ a:hover {
 
 
 .section-testimony {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -417,6 +431,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    -webkit-box-shadow: 0 2px 5px #e8e8e8;
     box-shadow: 0 2px 5px #e8e8e8;
 }
 
@@ -541,6 +556,7 @@ footer {
 .social-links li a:active {
     color: #d35400;
     font-weight: 400;
+    -webkit-transition: color, font-weight .1s;
     transition: color, font-weight .1s;
 
 }
